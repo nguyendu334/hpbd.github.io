@@ -187,7 +187,7 @@ div {
 }
 
 #piece11:checked ~ .reload {
-  transform: translate(98.75%, 99.1%);
+  transform: translate(-1%, 0%);
 }
 
 #piece11:checked ~ .click {
@@ -208,10 +208,8 @@ div {
 
 .reload {
   position: absolute;
-  top: -100%;
-  left: -100%;
   z-index: 3;
-  transform: translate(-50%, -100vh);
+  transform: translate(-100%, -101%);
   transition: 1000ms;
 }
 

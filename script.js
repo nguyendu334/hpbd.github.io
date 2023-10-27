@@ -5,9 +5,9 @@ var w = (c.width = window.innerWidth),
     hh = h / 2,
     opts = {
         strings: ['HAPPY', 'BIRTHDAY!'],
-        charSize: 60,
-        charSpacing: 65,
-        lineHeight: 70,
+        charSize: 30,
+        charSpacing: 35,
+        lineHeight: 40,
 
         cx: w / 2,
         cy: h / 2,
@@ -325,7 +325,7 @@ function generateBalloonPath(x, y, size) {
 function anim() {
     window.requestAnimationFrame(anim);
 
-    ctx.fillStyle = '#111';
+    ctx.fillStyle = '#000';
     ctx.fillRect(0, 0, w, h);
 
     ctx.translate(hw, hh);
